@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="118dp"
+        android:layout_height="26dp"
+        android:text="Menú de opciones"
+        android:textColor="@color/boton1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <Button
+        android:id="@+id/btnPerfil"
+        android:layout_width="175dp"
+        android:layout_height="57dp"
+        android:text="Perfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/boton1"
+        app:layout_constraintVertical_bias="0.229" />
+
+    <Button
+        android:id="@+id/btnResumen"
+        android:layout_width="175dp"
+        android:layout_height="57dp"
+        android:text="Resumen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/boton1"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <Button
+        android:id="@+id/btnOperaciones"
+        android:layout_width="175dp"
+        android:layout_height="57dp"
+        android:text="Operaciones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/boton1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMonederos"
+        android:layout_width="175dp"
+        android:layout_height="57dp"
+        android:text="Monederos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/boton1"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <Button
+        android:id="@+id/btnImportar"
+        android:layout_width="175dp"
+        android:layout_height="57dp"
+        android:text="Importar registros"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/boton1"
+        app:layout_constraintVertical_bias="0.762" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="175dp"
+        android:layout_height="57dp"
+        android:text="Cerrar sesión"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/boton1"
+        app:layout_constraintVertical_bias="0.89" />
+</androidx.constraintlayout.widget.ConstraintLayout>
